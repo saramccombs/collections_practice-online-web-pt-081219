@@ -29,3 +29,13 @@ end
 def swap_elements(array)
   
 end
+
+# method named reverse_array
+# method takes in an array of integers
+# returns a copy of the array with the elements in reverse order
+
+
+def reverse_array(array_of_integers)
+  array_of_integers.reverse 
+end
+
