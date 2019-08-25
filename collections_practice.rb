@@ -46,7 +46,9 @@ end
 # use the .each method to iterate 
 
 def kesha_maker(array_of_strings)
-  
+   array_of_strings.each do |item|
+    item[2] = "$"
+  end
 end
 
 # method named find_a
