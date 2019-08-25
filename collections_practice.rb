@@ -56,3 +56,11 @@ end
 def find_a(array_of_strings)
   array_of_strings.select { |word| word.start_with?("a") }
 end
+
+# method named sum_array
+# method returns the sum of all integers in the supplied array 
+# advanced: try using .inject
+
+def sum_array(array_of_integers)
+  
+end
