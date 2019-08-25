@@ -71,5 +71,5 @@ end
 # method returns the updated array 
 
 def add_s(array_of_strings)
-  
+  array_of_strings.each_with_index.collect { |word, index| while index != 1 word +"s" }
 end
