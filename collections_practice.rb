@@ -64,3 +64,12 @@ end
 def sum_array(array_of_integers)
   array_of_integers.inject { |sum, n| sum + n } 
 end
+
+# method named add_s 
+# method takes in an array of strings
+# method adds an "s" to each word in the array EXCEPT the second element
+# method returns the updated array 
+
+def add_s(array_of_strings)
+  
+end
