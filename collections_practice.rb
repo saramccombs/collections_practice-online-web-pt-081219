@@ -21,3 +21,11 @@ end
 def sort_array_char_count(array_of_strings)
   array_of_strings.sort {|a, b| a.length <=> b.length}
 end
+
+# method named swap_elements
+# takes in an array and swaps the second and third swap_elements
+# returns an updated array
+
+def swap_elements(array)
+  
+end
