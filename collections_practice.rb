@@ -47,3 +47,11 @@ end
 def kesha_maker(array_of_strings)
   
 end
+
+# method named find_a
+# returns all the strings in the array that starts with the letter a 
+# use a high level iterator that finds/selects/detects elements based upon a condition
+
+def find_a(array_of_strings)
+  
+end
