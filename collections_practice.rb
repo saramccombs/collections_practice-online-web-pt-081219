@@ -46,9 +46,7 @@ end
 # use the .each method to iterate 
 
 def kesha_maker(array_of_strings)
-   array_of_strings.each do |item|
-    item[2] = "$"
-  end
+   array_of_strings.each { |item| item[2] = "$" }
 end
 
 # method named find_a
@@ -56,7 +54,5 @@ end
 # use a high level iterator that finds/selects/detects elements based upon a condition
 
 def find_a(array_of_strings)
-  array_of_strings.select do |word|
-    word.start_with?("a")
-  end
+  array_of_strings.select { |word| word.start_with?("a") }
 end
