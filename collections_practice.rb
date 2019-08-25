@@ -39,3 +39,11 @@ def reverse_array(array_of_integers)
   array_of_integers.reverse 
 end
 
+# method named kesha_maker
+# takes in an array of strings
+# method replaces the third character in ach string with a $ 
+# use the .each method to iterate 
+
+def kesha_maker(array_of_strings)
+  
+end
