@@ -62,5 +62,5 @@ end
 # advanced: try using .inject
 
 def sum_array(array_of_integers)
-  
+  array_of_integers.inject { |sum, n| sum + n } 
 end
