@@ -56,7 +56,7 @@ end
 # use a high level iterator that finds/selects/detects elements based upon a condition
 
 def find_a(array_of_strings)
-  array_of_strings.select
-    
+  array_of_strings.select do |word|
+    word.start_with?("a")
   end
 end
